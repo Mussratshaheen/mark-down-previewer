@@ -53,7 +53,7 @@ class App extends React.Component {
                         <h3>Editor</h3>
                         <textarea className="form-control p-2" id="editor" value={text} onChange={this.handleChange}></textarea>
                     </div>
-                    <div className="col-6"   >
+                    <div className="col-6">
                         <h3>Previewer</h3>
                         <div className="preview rounded" dangerouslySetInnerHTML={{ __html: markdown }} id="preview"/>
 
@@ -70,4 +70,4 @@ class App extends React.Component {
 
 }
 
-ReactDOM.render(<App />, document.getElementById('app'));
+ReactDOM.render(<App />, document.getElementById("app"));
